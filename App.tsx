@@ -4,7 +4,7 @@
  */
 
 import {useState, useEffect} from 'react';
-import Auth from './components/Auth';
+import Auth from './Auth';
 import ChatWindow from './components/Chat/ChatWindow';
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
 
   useEffect(() => {
     // Check if user is already logged in
-    const savedUser = localStorage.getItem('nexa_current_user');
+    const savedUser = localStorage.getItem('pajar_current_user');
     if (savedUser) {
       setUser(savedUser);
     }
