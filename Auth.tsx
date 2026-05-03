@@ -6,7 +6,7 @@
 import {useState, useEffect} from 'react';
 import {motion, AnimatePresence} from 'motion/react';
 import {User, Lock, ArrowRight, Sparkles} from 'lucide-react';
-import {LOADING_IMAGES} from '../types';
+import {LOADING_IMAGES} from './types';
 
 export default function Auth({onLogin}: {onLogin: (username: string) => void}) {
   const [isLogin, setIsLogin] = useState(true);
