@@ -5,7 +5,7 @@
 
 import {useState, useEffect} from 'react';
 import Auth from './Auth';
-import ChatWindow from './components/Chat/ChatWindow';
+import ChatWindow from './ChatWindow';
 
 export default function App() {
   const [user, setUser] = useState<string | null>(null);
