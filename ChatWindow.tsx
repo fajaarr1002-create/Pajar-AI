@@ -22,7 +22,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import {AIModel, Message, ChatHistory, MODEL_CONFIGS} from '../../types';
+import {AIModel, Message, ChatHistory, MODEL_CONFIGS} from './types';
 import CodeBlock from './CodeBlock';
 
 interface ChatProps {
